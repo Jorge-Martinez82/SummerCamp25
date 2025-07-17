@@ -18,7 +18,7 @@
         int numero;
         while (true)
         {
-            Console.WriteLine("Introduce un número del 1 al 7 (o 0 para salir):");
+            Console.WriteLine("Introduce un número del 1 al 7 (o 0 para salir): ");
             if (!int.TryParse(Console.ReadLine(), out numero))
             {
                 Console.WriteLine("Entrada no válida, por favor introduce un número.");
